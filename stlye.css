@@ -1,0 +1,116 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 77%);
+}
+
+header {
+    background-color: hwb(0, 61%, 39%);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;   
+
+}
+
+footer {
+    background-color: hsl(0, 0%, 75%);
+    color: #000000;
+    padding: 20px;
+    text-align: center;   
+
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 60px;
+    border: 1px solid hwb(0 0% 100%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #5757571a;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family:'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-decoration: underline; /*Underline for headings*/
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius:5px;
+}
+
+button {
+    background-color: #333;
+    color: hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+
+}
+
+/* Car Listings */
+.car-listing {
+    border-bottom: 1px solid hsl(0, 0%, 0%);
+    padding: 60px;
+}
+
+.car-image {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.car-details {
+    margin-left: 220px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .car-image {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+.car-details {
+    margin-left: 0;
+}
+}
+
